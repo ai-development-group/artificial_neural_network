@@ -16,5 +16,5 @@ int main()
 	trainer t(input_data_set,target_data_set);
 	t.train_until_tol(ann);
 	cout << ann.calculate_output(input_data_set);	
-	cout << matrix::AXIS_Y;
+	//cout << matrix::AXIS_Y;
 }
